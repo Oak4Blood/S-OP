@@ -1,0 +1,765 @@
+-- Hi UnderTreeIsHere
+-- Your UnderTreeMember :)
+-- Version: 3.0 Beta
+
+local UnderTheTreeSteve = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local label = Instance.new("TextLabel")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local ChestTeleport = Instance.new("TextButton")
+local Teleporttodfseller = Instance.new("TextButton")
+local AllSeeEye = Instance.new("TextButton")
+local LagSever = Instance.new("TextButton")
+local PlayerBring = Instance.new("TextButton")
+local NoClip = Instance.new("TextButton")
+local Flight = Instance.new("TextButton")
+local MobBring = Instance.new("TextButton")
+local Info = Instance.new("TextLabel")
+local ScrollingFrameTp = Instance.new("ScrollingFrame")
+local Bypass = Instance.new("TextButton")
+local Starter = Instance.new("TextButton")
+local Buggy = Instance.new("TextButton")
+local Noob = Instance.new("TextButton")
+local Luffy = Instance.new("TextButton")
+local Nothing = Instance.new("TextButton")
+local BlackLeg = Instance.new("TextButton")
+local BigHouse = Instance.new("TextButton")
+local Fishman = Instance.new("TextButton")
+local DevilFruit = Instance.new("TextButton")
+local Marine = Instance.new("TextButton")
+local Logo = Instance.new("ImageLabel")
+local DeleteGui = Instance.new("TextButton")
+local Set = Instance.new("Frame")
+local Setting = Instance.new("TextButton")
+
+
+UnderTheTreeSteve.Name = "UnderTheTreeSteve"
+UnderTheTreeSteve.Parent = game.CoreGui
+UnderTheTreeSteve.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+main.Name = "main"
+main.Parent = UnderTheTreeSteve
+main.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+main.BackgroundTransparency = 0.444
+main.Position = UDim2.new(0.616396725, 0, 0.255033553, 0)
+main.Size = UDim2.new(0, 379, 0, 306)
+
+label.Name = "label"
+label.Parent = main
+label.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+label.BackgroundTransparency = 0.400
+label.BorderColor3 = Color3.fromRGB(255, 0, 0)
+label.Size = UDim2.new(0, 214, 0, 50)
+label.Font = Enum.Font.IndieFlower
+label.Text = "Under Tree"
+label.TextColor3 = Color3.fromRGB(22, 243, 243)
+label.TextSize = 40.000
+
+ScrollingFrame.Parent = main
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ScrollingFrame.BackgroundTransparency = 0.400
+ScrollingFrame.Position = UDim2.new(0.5646438, 0, 0, 0)
+ScrollingFrame.Size = UDim2.new(0, 165, 0, 306)
+ScrollingFrame.CanvasSize = UDim2.new(0, 0, 10, 0)
+
+ChestTeleport.Name = "ChestTeleport"
+ChestTeleport.Parent = ScrollingFrame
+ChestTeleport.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ChestTeleport.BorderColor3 = Color3.fromRGB(254, 255, 230)
+ChestTeleport.BorderSizePixel = 2
+ChestTeleport.Position = UDim2.new(0.103030302, 0, 0.0029411763, 0)
+ChestTeleport.Size = UDim2.new(0, 130, 0, 31)
+ChestTeleport.Font = Enum.Font.Arcade
+ChestTeleport.Text = "Chest teleport"
+ChestTeleport.TextColor3 = Color3.fromRGB(22, 243, 243)
+ChestTeleport.TextSize = 14.000
+ChestTeleport.MouseButton1Down:connect(function()
+	for i,v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
+		if v.ClassName == "Script" then
+			for i,c in pairs(v:GetChildren()) do
+				if c.Name == "" then
+					v:Remove()
+
+				end
+			end
+		end
+	end
+	wait(1)
+
+	local char = game.Players.LocalPlayer.Character.HumanoidRootPart
+	char.CFrame = CFrame.new(-1.85106, -0.039425, 533.926)
+	wait(0.1)
+	char.CFrame = CFrame.new(38.049, 0.0610001, 532.325)
+	wait(0.1)
+	char.CFrame = CFrame.new(-1396.98, 29.8557, 4935.55)
+	wait(0.1)
+	char.CFrame = CFrame.new(33.0661, -0.918885, 140.762)
+	wait(0.1)
+	char.CFrame = CFrame.new(-2315.8, 73.5165, -4203.24)
+	wait(0.1)
+	char.CFrame = CFrame.new(-2400.58, 16.4052, -4002.52)
+	wait(0.1)
+	char.CFrame = CFrame.new(-2395.08, 16.4052, -4002.67)
+	wait(0.1)
+	char.CFrame = CFrame.new(-2597.8, 16.4052, -3950.51)
+	wait(0.1)
+	char.CFrame = CFrame.new(-4352.83, 1.15708, 1333.96)
+	wait(0.1)
+	char.CFrame = CFrame.new(-4181.38, 1.15708, 1247.76)
+	wait(0.1)
+	char.CFrame = CFrame.new(-4502.72, 34.6525, 1245.19)
+	wait(0.1)
+	char.CFrame = CFrame.new(3170.6, 20.2562, 1640.64)
+	wait(0.1)
+	char.CFrame = CFrame.new(-1222.25, 32.3926, 5026.28)
+	wait(0.1)
+	char.CFrame = CFrame.new(-4540.95, 102.957, 4031.49)
+	wait(0.1)
+	char.CFrame = CFrame.new(-4539.41, 102.957, 4026.31)
+	wait(0.1)
+	char.CFrame = CFrame.new(-4542.46, 102.957, 4036.57)
+	wait(0.1)
+	char.CFrame = CFrame.new(-4653.76, 56.2417, 4089.94)
+	wait(0.1)
+	char.CFrame = CFrame.new(-4501.02, 56.1395, 4055.36)
+	wait(0.1)
+	char.CFrame = CFrame.new(-4498.99, 56.1395, 4048.35)
+	wait(0.1)
+	char.CFrame = CFrame.new(-4497.38, 56.1395, 4042.78)
+	wait(0.1)
+	char.CFrame = CFrame.new(-4502.91, 56.1395, 4061.89)
+	wait(0.1)
+	char.CFrame = CFrame.new(0, 0, 0)
+	wait(0.1)
+	char.CFrame = CFrame.new(3241.04, 111.098, 6313.86)
+	wait(0.1)
+	char.CFrame = CFrame.new(3329.62, 162.128, 6281.31)
+	wait(0.1)
+	char.CFrame = CFrame.new(3337.42, 162.128, 6281.31)
+	wait(0.1)
+	char.CFrame = CFrame.new(3322.32, 162.128, 6281.31)
+	wait(0.1)
+	char.CFrame = CFrame.new(3329.78, 29.1339, 6334.22)
+	wait(0.1)
+	char.CFrame = CFrame.new(3436.67, 29.1339, 6310.52)
+	wait(0.1)
+	char.CFrame = CFrame.new(3436.67, 29.1339, 6317.93)
+	wait(0.1)
+	char.CFrame = CFrame.new(3436.67, 29.1339, 6329.12)
+	wait(0.1)
+	char.CFrame = CFrame.new(3436.67, 29.1339, 6321.82)
+	wait(0.1)
+	char.CFrame = CFrame.new(3436.67, 29.1339, 6223.72)
+	wait(0.1)
+	char.CFrame = CFrame.new(3436.67, 29.1339, 6231.13)
+	wait(0.1)
+	char.CFrame = CFrame.new(3436.67, 29.1339, 6242.32)
+	wait(0.1)
+	char.CFrame = CFrame.new(3436.67, 29.1339, 6235.02)
+	wait(0.1)
+	char.CFrame = CFrame.new(0, 400, 0)
+
+end)
+
+Teleporttodfseller.Name = "Teleporttodfseller"
+Teleporttodfseller.Parent = ScrollingFrame
+Teleporttodfseller.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Teleporttodfseller.BorderColor3 = Color3.fromRGB(254, 255, 230)
+Teleporttodfseller.BorderSizePixel = 2
+Teleporttodfseller.Position = UDim2.new(0.103030302, 0, 0.0130718946, 0)
+Teleporttodfseller.Size = UDim2.new(0, 130, 0, 31)
+Teleporttodfseller.Font = Enum.Font.Arcade
+Teleporttodfseller.Text = "Devil Fruit Seller"
+Teleporttodfseller.TextColor3 = Color3.fromRGB(22, 243, 243)
+Teleporttodfseller.TextSize = 12.000
+Teleporttodfseller.MouseButton1Down:connect(function()
+	for i,v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
+		if v.ClassName == "Script" then
+			for i,c in pairs(v:GetChildren()) do
+				if c.Name == "" then
+					v:Remove()
+
+				end
+			end
+		end
+	end
+	wait(1)
+
+	local char = game.Players.LocalPlayer.Character.HumanoidRootPart
+	char.CFrame = CFrame.new(2140.36, 400, -3325.55)
+end)
+
+AllSeeEye.Name = "AllSeeEye"
+AllSeeEye.Parent = ScrollingFrame
+AllSeeEye.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+AllSeeEye.BorderColor3 = Color3.fromRGB(254, 255, 230)
+AllSeeEye.BorderSizePixel = 2
+AllSeeEye.Position = UDim2.new(0.103030302, 0, 0.0241830051, 0)
+AllSeeEye.Size = UDim2.new(0, 130, 0, 31)
+AllSeeEye.Font = Enum.Font.Arcade
+AllSeeEye.Text = "AllSeeingEye"
+AllSeeEye.TextColor3 = Color3.fromRGB(22, 243, 243)
+AllSeeEye.TextSize = 16.000
+AllSeeEye.MouseButton1Down:connect(function()
+	for i,v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
+		game.Players.LocalPlayer.Character.Humanoid.NameDisplayDistance = 100000000000
+	end
+end)
+
+LagSever.Name = "LagSever"
+LagSever.Parent = ScrollingFrame
+LagSever.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+LagSever.BorderColor3 = Color3.fromRGB(254, 255, 230)
+LagSever.BorderSizePixel = 2
+LagSever.Position = UDim2.new(0.103030302, 0, 0.0343137234, 0)
+LagSever.Size = UDim2.new(0, 130, 0, 31)
+LagSever.Font = Enum.Font.Arcade
+LagSever.Text = "LagServer"
+LagSever.TextColor3 = Color3.fromRGB(22, 243, 243)
+LagSever.TextSize = 20.000
+LagSever.TextWrapped = true
+LagSever.MouseButton1Down:connect(function()
+	local AmountOfMessages = 3
+	local SafeMode = false
+	local SafemodeWaitTime = 4
+
+	if SafeMode then
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("?", "All")
+		wait(SafemodeWaitTime)
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("?", "All")
+		wait(SafemodeWaitTime)
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("?", "All")
+	else
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Hi", "All")
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Hello", "All")
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Ayoooo", "All")
+	end
+end)
+
+PlayerBring.Name = "Player Bring"
+PlayerBring.Parent = ScrollingFrame
+PlayerBring.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+PlayerBring.BorderColor3 = Color3.fromRGB(254, 255, 230)
+PlayerBring.BorderSizePixel = 2
+PlayerBring.Position = UDim2.new(0.103030302, 0, 0.0447712392, 0)
+PlayerBring.Size = UDim2.new(0, 130, 0, 31)
+PlayerBring.Font = Enum.Font.Arcade
+PlayerBring.Text = "PlayerBring"
+PlayerBring.TextColor3 = Color3.fromRGB(0, 227, 252)
+PlayerBring.TextSize = 18.000
+PlayerBring.TextWrapped = true
+PlayerBring.MouseButton1Down:connect(function()
+	for i,v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
+		game.Players.MaxRGT.Character.Torso.Anchored = true
+	end
+	game.Players.MaxRGT.Character.Torso.CFrame = CFrame.new(-5599.51, 2.10018, -4508.93)
+end)
+
+PlayerBring.MouseButton1Down:connect(function()
+	local char = game.Players.LocalPlayer.Character.HumanoidRootPart
+	char.CFrame = CFrame.new(-5595.51, 2.10018, -4508.93)
+end)
+
+NoClip.Name = "NoClip"
+NoClip.Parent = ScrollingFrame
+NoClip.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+NoClip.BorderColor3 = Color3.fromRGB(254, 255, 230)
+NoClip.BorderSizePixel = 2
+NoClip.Position = UDim2.new(0.103030302, 0, 0.0549019575, 0)
+NoClip.Size = UDim2.new(0, 130, 0, 31)
+NoClip.Font = Enum.Font.Arcade
+NoClip.Text = "NoClip"
+NoClip.TextColor3 = Color3.fromRGB(27, 221, 221)
+NoClip.TextSize = 20.000
+NoClip.TextWrapped = true
+NoClip.MouseButton1Down:connect(function()
+	noclip = false
+	game:GetService('RunService').Stepped:connect(function()
+		if noclip then
+			game.Players.LocalPlayer.Character.Humanoid:ChangeState(11)
+		end
+	end)
+	plr = game.Players.LocalPlayer
+	mouse = plr:GetMouse()
+	mouse.KeyDown:connect(function(key)
+
+		if key == "f" then
+			noclip = not noclip
+			game.Players.LocalPlayer.Character.Humanoid:ChangeState(11)
+		end
+	end)
+end)
+
+Flight.Name = "Flight"
+Flight.Parent = ScrollingFrame
+Flight.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Flight.BorderColor3 = Color3.fromRGB(254, 255, 230)
+Flight.BorderSizePixel = 2
+Flight.Position = UDim2.new(0.103030302, 0, 0.0650326759, 0)
+Flight.Size = UDim2.new(0, 130, 0, 31)
+Flight.Font = Enum.Font.Arcade
+Flight.Text = "Flight"
+Flight.TextColor3 = Color3.fromRGB(27, 221, 221)
+Flight.TextSize = 20.000
+Flight.TextWrapped = true
+Flight.MouseButton1Down:connect(function()
+	repeat wait()
+	until game.Players.LocalPlayer and game.Players.LocalPlayer.Character and game.Players.LocalPlayer.Character:findFirstChild("Torso") and game.Players.LocalPlayer.Character:findFirstChild("Humanoid")
+	local mouse = game.Players.LocalPlayer:GetMouse()
+	repeat wait() until mouse
+	local plr = game.Players.LocalPlayer
+	local torso = plr.Character.Torso
+	local flying = true
+	local deb = true
+	local ctrl = {f = 0, b = 0, l = 0, r = 0}
+	local lastctrl = {f = 0, b = 0, l = 0, r = 0}
+	local maxspeed = 220
+	local speed = 100
+
+	function Fly()
+		local bg = Instance.new("BodyGyro", torso)
+		bg.P = 9e4
+		bg.maxTorque = Vector3.new(9e9, 9e9, 9e9)
+		bg.cframe = torso.CFrame
+		local bv = Instance.new("BodyVelocity", torso)
+		bv.velocity = Vector3.new(0,0.1,0)
+		bv.maxForce = Vector3.new(9e9, 9e9, 9e9)
+		repeat wait()
+			plr.Character.Humanoid.PlatformStand = true
+			if ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0 then
+				speed = speed+.5+(speed/maxspeed)
+				if speed > maxspeed then
+					speed = maxspeed
+				end
+			elseif not (ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0) and speed ~= 0 then
+				speed = speed-1
+				if speed < 0 then
+					speed = 100
+				end
+			end
+			if (ctrl.l + ctrl.r) ~= 0 or (ctrl.f + ctrl.b) ~= 0 then
+				bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (ctrl.f+ctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(ctrl.l+ctrl.r,(ctrl.f+ctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed
+				lastctrl = {f = ctrl.f, b = ctrl.b, l = ctrl.l, r = ctrl.r}
+			elseif (ctrl.l + ctrl.r) == 0 and (ctrl.f + ctrl.b) == 0 and speed ~= 0 then
+				bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (lastctrl.f+lastctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(lastctrl.l+lastctrl.r,(lastctrl.f+lastctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed
+			else
+				bv.velocity = Vector3.new(0,0.1,0)
+			end
+			bg.cframe = game.Workspace.CurrentCamera.CoordinateFrame * CFrame.Angles(-math.rad((ctrl.f+ctrl.b)*100*speed/maxspeed),0,0)
+		until not flying
+		ctrl = {f = 0, b = 0, l = 0, r = 0}
+		lastctrl = {f = 0, b = 0, l = 0, r = 0}
+		speed = 100
+		bg:Destroy()
+		bv:Destroy()
+		plr.Character.Humanoid.PlatformStand = false
+	end
+	mouse.KeyDown:connect(function(key)
+		if key:lower() == "y" then
+			if flying then flying = false
+			else
+				flying = true
+				Fly()
+			end
+		elseif key:lower() == "w" then
+			ctrl.f = 1
+		elseif key:lower() == "s" then
+			ctrl.b = -1
+		elseif key:lower() == "a" then
+			ctrl.l = -1
+		elseif key:lower() == "d" then
+			ctrl.r = 1
+		end
+	end)
+	mouse.KeyUp:connect(function(key)
+		if key:lower() == "w" then
+			ctrl.f = 0
+		elseif key:lower() == "s" then
+			ctrl.b = 0
+		elseif key:lower() == "a" then
+			ctrl.l = 0
+		elseif key:lower() == "d" then
+			ctrl.r = 0
+		end
+	end)
+end)
+
+MobBring.Name = "MobBring"
+MobBring.Parent = ScrollingFrame
+MobBring.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+MobBring.BorderColor3 = Color3.fromRGB(254, 255, 230)
+MobBring.BorderSizePixel = 2
+MobBring.Position = UDim2.new(0.103030302, 0, 0.0758169889, 0)
+MobBring.Size = UDim2.new(0, 130, 0, 31)
+MobBring.Font = Enum.Font.Arcade
+MobBring.Text = "MobBring"
+MobBring.TextColor3 = Color3.fromRGB(27, 221, 221)
+MobBring.TextSize = 20.000
+MobBring.TextWrapped = true
+MobBring.MouseButton1Down:connect(function()
+	for _,v in pairs(game.Workspace:GetDescendants()) do
+		if string.find(v.Name, "Buggy pirate") then
+			v:FindFirstChild("HumanoidRootPart").Anchored = true
+			v:FindFirstChild("HumanoidRootPart").CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame*CFrame.new(0,0,-5)
+		end
+	end
+end)
+MobBring.MouseButton1Down:connect(function()
+	for _,v in pairs(game.Workspace:GetDescendants()) do
+		if string.find(v.Name, "Attacking Noob") then
+			v:FindFirstChild("HumanoidRootPart").Anchored = true
+			v:FindFirstChild("HumanoidRootPart").CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame*CFrame.new(0,0,-5)
+		end
+	end
+end)
+MobBring.MouseButton1Down:connect(function()
+	for _,v in pairs(game.Workspace:GetDescendants()) do
+		if string.find(v.Name, "Big Full Body") then
+			v:FindFirstChild("HumanoidRootPart").Anchored = true
+			v:FindFirstChild("HumanoidRootPart").CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame*CFrame.new(0,0,-5)
+		end
+	end
+end)
+MobBring.MouseButton1Down:connect(function()
+	for _,v in pairs(game.Workspace:GetDescendants()) do
+		if string.find(v.Name, "Luffy") then
+			v:FindFirstChild("HumanoidRootPart").Anchored = true
+			v:FindFirstChild("HumanoidRootPart").CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame*CFrame.new(0,0,-5)
+		end
+	end
+end)
+MobBring.MouseButton1Down:connect(function()
+	for _,v in pairs(game.Workspace:GetDescendants()) do
+		if string.find(v.Name, "Marine") then
+			v:FindFirstChild("HumanoidRootPart").Anchored = true
+			v:FindFirstChild("HumanoidRootPart").CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame*CFrame.new(0,0,-5)
+		end
+	end
+end)
+
+Info.Name = "Info"
+Info.Parent = main
+Info.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Info.BackgroundTransparency = 1.000
+Info.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Info.Position = UDim2.new(0, 0, 0.163398698, 0)
+Info.Size = UDim2.new(0, 214, 0, 39)
+Info.Font = Enum.Font.Sarpanch
+Info.Text = "Added 6 New"
+Info.TextColor3 = Color3.fromRGB(255, 255, 255)
+Info.TextSize = 20.000
+
+ScrollingFrameTp.Name = "ScrollingFrameTp"
+ScrollingFrameTp.Parent = main
+ScrollingFrameTp.Active = true
+ScrollingFrameTp.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ScrollingFrameTp.BackgroundTransparency = 0.500
+ScrollingFrameTp.Position = UDim2.new(-0.372031659, 0, 0, 0)
+ScrollingFrameTp.Size = UDim2.new(0, 134, 0, 306)
+
+Bypass.Name = "Bypass"
+Bypass.Parent = ScrollingFrameTp
+Bypass.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Bypass.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Bypass.BorderSizePixel = 2
+Bypass.Position = UDim2.new(0.0657171011, 0, 0.0215686448, 0)
+Bypass.Size = UDim2.new(0, 104, 0, 22)
+Bypass.Font = Enum.Font.Code
+Bypass.Text = "Bypass"
+Bypass.TextColor3 = Color3.fromRGB(238, 193, 58)
+Bypass.TextSize = 14.000
+Bypass.MouseButton1Down:connect(function()
+	for i,v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
+		if v.ClassName == "Script" then
+			for i,c in pairs(v:GetChildren()) do
+				if c.Name == "" then
+					v:Remove()
+
+				end
+			end
+		end
+	end
+	wait(1)
+
+end)
+
+Starter.Name = "Starter"
+Starter.Parent = ScrollingFrameTp
+Starter.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Starter.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Starter.BorderSizePixel = 2
+Starter.Position = UDim2.new(0.0657171011, 0, 0.0640523061, 0)
+Starter.Size = UDim2.new(0, 104, 0, 22)
+Starter.Font = Enum.Font.Code
+Starter.Text = "Starter"
+Starter.TextColor3 = Color3.fromRGB(0, 251, 255)
+Starter.TextSize = 14.000
+Starter.MouseButton1Down:connect(function()
+	wait(0.5)
+	local char = game.Players.LocalPlayer.Character.HumanoidRootPart
+	char.CFrame = CFrame.new(282.626, 44.5512, 400.538)
+end)
+
+Buggy.Name = "Buggy"
+Buggy.Parent = ScrollingFrameTp
+Buggy.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Buggy.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Buggy.BorderSizePixel = 2
+Buggy.Position = UDim2.new(0.0657171011, 0, 0.100000024, 0)
+Buggy.Size = UDim2.new(0, 104, 0, 22)
+Buggy.Font = Enum.Font.Code
+Buggy.Text = "Buggy"
+Buggy.TextColor3 = Color3.fromRGB(0, 251, 255)
+Buggy.TextSize = 14.000
+Buggy.MouseButton1Down:connect(function()
+	wait(0.5)
+	local char = game.Players.LocalPlayer.Character.HumanoidRootPart
+	char.CFrame = CFrame.new(-4553.1, 27.3174, 1098.99)
+end)
+
+Noob.Name = "Noob"
+Noob.Parent = ScrollingFrameTp
+Noob.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Noob.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Noob.BorderSizePixel = 2
+Noob.Position = UDim2.new(0.0657171011, 0, 0.135947734, 0)
+Noob.Size = UDim2.new(0, 104, 0, 22)
+Noob.Font = Enum.Font.Code
+Noob.Text = "Noob"
+Noob.TextColor3 = Color3.fromRGB(0, 251, 255)
+Noob.TextSize = 14.000
+Noob.MouseButton1Down:connect(function()
+	wait(0.5)
+	local char = game.Players.LocalPlayer.Character.HumanoidRootPart
+	char.CFrame = CFrame.new(2989.88, 2.19044, 1440.39)
+end)
+
+Luffy.Name = "Luffy"
+Luffy.Parent = ScrollingFrameTp
+Luffy.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Luffy.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Luffy.BorderSizePixel = 2
+Luffy.Position = UDim2.new(0.0657171011, 0, 0.171895444, 0)
+Luffy.Size = UDim2.new(0, 104, 0, 22)
+Luffy.Font = Enum.Font.Code
+Luffy.Text = "Luffy"
+Luffy.TextColor3 = Color3.fromRGB(0, 251, 255)
+Luffy.TextSize = 14.000
+Luffy.MouseButton1Down:connect(function()
+	wait(0.5)
+	local char = game.Players.LocalPlayer.Character.HumanoidRootPart
+	char.CFrame = CFrame.new(-2635.59, 39.2949, -4206.7)
+end)
+
+Nothing.Name = "Nothing"
+Nothing.Parent = ScrollingFrameTp
+Nothing.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Nothing.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Nothing.BorderSizePixel = 2
+Nothing.Position = UDim2.new(0.0657171011, 0, 0.207843155, 0)
+Nothing.Size = UDim2.new(0, 104, 0, 22)
+Nothing.Font = Enum.Font.Code
+Nothing.Text = "Nothing"
+Nothing.TextColor3 = Color3.fromRGB(0, 251, 255)
+Nothing.TextSize = 14.000
+Nothing.MouseButton1Down:connect(function()
+	wait(0.5)
+	local char = game.Players.LocalPlayer.Character.HumanoidRootPart
+	char.CFrame = CFrame.new(-4733.88, -1.54386, -2174.05)
+end)
+
+BlackLeg.Name = "BlackLeg"
+BlackLeg.Parent = ScrollingFrameTp
+BlackLeg.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+BlackLeg.BorderColor3 = Color3.fromRGB(255, 255, 255)
+BlackLeg.BorderSizePixel = 2
+BlackLeg.Position = UDim2.new(0.0657171011, 0, 0.24379088, 0)
+BlackLeg.Size = UDim2.new(0, 104, 0, 22)
+BlackLeg.Font = Enum.Font.Code
+BlackLeg.Text = "BlackLeg"
+BlackLeg.TextColor3 = Color3.fromRGB(0, 251, 255)
+BlackLeg.TextSize = 14.000
+BlackLeg.MouseButton1Down:connect(function()
+	wait(0.5)
+	local char = game.Players.LocalPlayer.Character.HumanoidRootPart
+	char.CFrame = CFrame.new(-1450.91, -1.06993, 4980.29)
+end)
+
+BigHouse.Name = "BigHouse"
+BigHouse.Parent = ScrollingFrameTp
+BigHouse.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+BigHouse.BorderColor3 = Color3.fromRGB(255, 255, 255)
+BigHouse.BorderSizePixel = 2
+BigHouse.Position = UDim2.new(0.0657171011, 0, 0.315686315, 0)
+BigHouse.Size = UDim2.new(0, 104, 0, 22)
+BigHouse.Font = Enum.Font.Code
+BigHouse.Text = "BigHouse"
+BigHouse.TextColor3 = Color3.fromRGB(0, 251, 255)
+BigHouse.TextSize = 14.000
+BigHouse.MouseButton1Down:connect(function()
+	wait(0.5)
+	local char = game.Players.LocalPlayer.Character.HumanoidRootPart
+	char.CFrame = CFrame.new(-4537.78, 20.4485, 4134.51)
+end)
+
+Fishman.Name = "Fishman"
+Fishman.Parent = ScrollingFrameTp
+Fishman.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Fishman.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Fishman.BorderSizePixel = 2
+Fishman.Position = UDim2.new(0.0657171011, 0, 0.351634026, 0)
+Fishman.Size = UDim2.new(0, 104, 0, 22)
+Fishman.Font = Enum.Font.Code
+Fishman.Text = "Fishman"
+Fishman.TextColor3 = Color3.fromRGB(0, 251, 255)
+Fishman.TextSize = 14.000
+Fishman.MouseButton1Down:connect(function()
+	wait(0.5)
+	local char = game.Players.LocalPlayer.Character.HumanoidRootPart
+	char.CFrame = CFrame.new(-5546.4, 158.57, -4471.28)
+end)
+
+DevilFruit.Name = "DevilFruit"
+DevilFruit.Parent = ScrollingFrameTp
+DevilFruit.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+DevilFruit.BorderColor3 = Color3.fromRGB(255, 255, 255)
+DevilFruit.BorderSizePixel = 2
+DevilFruit.Position = UDim2.new(0.0657171011, 0, 0.387581736, 0)
+DevilFruit.Size = UDim2.new(0, 104, 0, 22)
+DevilFruit.Font = Enum.Font.Code
+DevilFruit.Text = "DevilFruit"
+DevilFruit.TextColor3 = Color3.fromRGB(0, 251, 255)
+DevilFruit.TextSize = 14.000
+DevilFruit.MouseButton1Down:connect(function()
+	wait(0.5)
+	local char = game.Players.LocalPlayer.Character.HumanoidRootPart
+	char.CFrame = CFrame.new(2140.36, 100, -3325.55)
+end)
+
+Marine.Name = "Marine"
+Marine.Parent = ScrollingFrameTp
+Marine.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Marine.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Marine.BorderSizePixel = 2
+Marine.Position = UDim2.new(0.0657171011, 0, 0.279738605, 0)
+Marine.Size = UDim2.new(0, 104, 0, 22)
+Marine.Font = Enum.Font.Code
+Marine.Text = "Marine"
+Marine.TextColor3 = Color3.fromRGB(0, 251, 255)
+Marine.TextSize = 14.000
+Marine.MouseButton1Down:connect(function()
+	wait(0.5)
+	local char = game.Players.LocalPlayer.Character.HumanoidRootPart
+	char.CFrame = CFrame.new(3336.15, 72.6617, 6085.9)
+end)
+
+Logo.Name = "Logo"
+Logo.Parent = main
+Logo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Logo.BackgroundTransparency = 1.000
+Logo.Position = UDim2.new(0, 0, 0.294117659, 0)
+Logo.Size = UDim2.new(0, 214, 0, 216)
+Logo.Image = "rbxassetid://7176488205"
+
+DeleteGui.Name = "DeleteGui"
+DeleteGui.Parent = main
+DeleteGui.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+DeleteGui.BorderColor3 = Color3.fromRGB(116, 0, 1)
+DeleteGui.BorderSizePixel = 2
+DeleteGui.Position = UDim2.new(0.279811233, 0, -0.0444443636, 0)
+DeleteGui.Size = UDim2.new(0, 107, 0, 13)
+DeleteGui.Font = Enum.Font.Arcade
+DeleteGui.Text = "DeleteGui"
+DeleteGui.TextColor3 = Color3.fromRGB(243, 0, 4)
+DeleteGui.TextSize = 16.000
+DeleteGui.MouseButton1Down:connect(function()
+	local UnderTheTreeSteve = game.CoreGui.UnderTheTreeSteve
+	
+	UnderTheTreeSteve:Destroy()
+	
+	CoreGui.UnderTheTreeSteve:Destroy()
+end)
+
+Set.Name = "Set"
+Set.Parent = UnderTheTreeSteve
+Set.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Set.BackgroundTransparency = 1.000
+Set.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Set.Position = UDim2.new(0, 0, 0.546979845, 0)
+Set.Size = UDim2.new(0, 100, 0, 100)
+Set.Active = true
+
+Setting.Name = "Setting"
+Setting.Parent = Set
+Setting.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Setting.BackgroundTransparency = 1.000
+Setting.Position = UDim2.new(0.00999999978, 0, 0.0420001224, 0)
+Setting.Size = UDim2.new(0, 98, 0, 94)
+Setting.Font = Enum.Font.IndieFlower
+Setting.Text = "UTT+"
+Setting.TextColor3 = Color3.fromRGB(1, 13, 255)
+Setting.TextScaled = true
+Setting.TextSize = 30.000
+Setting.TextWrapped = true
+Setting.MouseButton1Down:connect(function()
+	local Setting = game.CoreGui.UnderTheTreeSteve.Set.Setting
+	local main = game.CoreGui.UnderTheTreeSteve.main
+
+	Setting.MouseButton1Click:Connect(function()
+		if main.Visible == false then
+			main.Visible = true
+		else
+			main.Visible = false
+		end
+	end)
+end)
+
+-- Nothing Just Script
+-- สัสดีคับ
+
+local function Drag() -- main.LocalScript 
+	local script = Instance.new('LocalScript', main)
+
+	local UserInputService = game:GetService("UserInputService")
+
+	local gui = script.Parent
+
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+
+	local function update(input)
+		local delta = input.Position - dragStart
+		gui.Position = gui:TweenPosition(UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y), 'Out', 'Linear', 0, true); -- drag speed
+	end
+
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(Drag)()
+
